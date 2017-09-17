@@ -16,7 +16,7 @@ Please cite [1] if you use Auto_SSM_O5 in your own work.
 # Remarks 
 For a general introduction into nonlinear normal modes and spectral submanifolds and definitions of both we refer the reader to [3]. 
 
-We also suggest the project of Ponsioen  (https://github.com/sponsioen/SSMTool) to advanced users.
+We also suggest the project of Ponsioen  (https://github.com/sponsioen/SSMTool) and the related publication [4] to advanced users.
 
 # References
 
@@ -27,3 +27,14 @@ We also suggest the project of Ponsioen  (https://github.com/sponsioen/SSMTool) 
 [3] G. Haller and S. Ponsioen. Nonlinear normal modes and spectral submanifolds: existence, uniqueness and use in model reduction. Nonlinear Dynamics 86, 1493–1534, 2016.
 
 [4] S. Ponsioen, T. Pedergnana and G. Haller. Automated computation of autonomous spectral submanifolds for nonlinear modal analysis. submitted (2017) https://arxiv.org/abs/1709.00886
+
+
+# Installation notes
+
+Tested on MATLAB R2016a.
+
+ 1) After you unzipped the files to mydir, put the Current Directory in MATLAB to mydir.
+
+ 2) Follow the instructions from Call_Auto_SSM.m to set up your system and compute the SSM.
+    
+Maintained by Thomas Breunung, brethoma at ethz dot ch September 17, 2017.
